@@ -8,7 +8,7 @@ end
 
 def valid_move?(board, index)
     if board[index] == false && between?[0,8] || board[index] == true && between?[0,8]
-      falsey
+      truthy
     #else #board[index] == true && between?[0,8]
       #false
     end
