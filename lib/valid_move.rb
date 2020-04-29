@@ -10,6 +10,6 @@ def valid_move?(board, index)
     if board[index] == false && between?[0,8]
       false
     else #board[index] == true && between?[0,8]
-      true
+      false
     end
 end
