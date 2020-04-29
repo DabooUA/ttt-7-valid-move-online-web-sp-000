@@ -6,8 +6,9 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move?(board,index)
-    if board[index].between?[0,8]
-      true
-    end
-end
+#def valid_move?(board,index)
+#    if board[index] == 
+#
+#      true
+#    end
+#end
